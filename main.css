@@ -1,0 +1,82 @@
+#container-header{
+    width: 100%;
+    height: 45px;
+    background-color: #111D4A;
+    box-sizing: border-box;
+}
+
+#container-header h1{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.container-lista{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-lista a{
+    list-style: none;
+    text-decoration: none;
+    color: #FCFF6C;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#container-section-sports, #container-section-economy, #container-section-entertainment, #container-section-technology{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#container-section-sports img, #container-section-economy img, #container-section-entertainment img, #container-section-technology img{
+    height: 180px;
+}
+
+#container-section-sports article, #container-section-economy article, #container-section-entertainment article, #container-section-technology article{
+    width: 30%;
+}
+
+#container-section-sports{
+    background-color: #FF0054;
+}
+
+#container-section-economy{
+    background-color: #A2ABAB;
+}
+
+#container-section-entertainment{
+    background-color: #F42B03;
+}
+
+#container-section-technology{
+background-color: #FEA82F;
+}
+
+time{
+    color: white;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+h3{
+    margin:10px 0;
+    font-size: 20px;
+    font-weight:700;
+}
+
+p{
+    margin-bottom: 5px;
+}
